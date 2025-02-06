@@ -1,0 +1,74 @@
+# Dependências do Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Relatórios de diagnóstico
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dados de runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório de cobertura de testes
+coverage/
+*.lcov
+
+# Saída do nyc
+.nyc_output/
+
+# Armazenamento intermediário do Grunt
+.grunt/
+
+# Diretório de dependências do Bower
+bower_components/
+
+# Configuração do node-waf
+.lock-wscript
+
+# Addons binários compilados
+build/Release/
+
+# Diretórios de dependências
+jspm_packages/
+web_modules/
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Diretórios de cache opcionais
+.npm/
+.eslintcache/
+.stylelintcache/
+
+# Cache do Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Histórico do REPL do Node.js
+.node_repl_history
+
+# Arquivos de ambiente
+.env
+.env.test
+.env.production
+
+# Arquivos de serviço
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
