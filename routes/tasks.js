@@ -73,3 +73,6 @@ router.delete('/:id', (req, res) => {
         return res.status(404).json({ error: 'Tarefa não encontrada.' });
     }
 });
+
+
+module.exports = router;

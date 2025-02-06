@@ -72,3 +72,4 @@ web_modules/
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
+tasks.json
